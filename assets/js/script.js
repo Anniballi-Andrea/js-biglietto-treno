@@ -28,12 +28,12 @@ if (age < 18 ){
     alert(price - price * 0.2 +"€")
 }
 
+else if (age > 65){
+    //applicare lo sconto alle persone over 65
+    alert(price - price * 0.4 +"€")
+}
+
 else{
     alert(price +"€")
 }
 
-
-
-//applicare lo sconto alle persone over 65
-
-console.log(price);
