@@ -25,15 +25,15 @@ const price = (distance * 0.21)
 //fare un controllo di eventuali sconti
 if (age < 18 ){
      //applicare lo sconto ai minorenni
-    alert(price - price * 0.2 +"€")
+    alert((price - price * 0.2).toFixed(2) +"€")
 }
 
 else if (age > 65){
     //applicare lo sconto alle persone over 65
-    alert(price - price * 0.4 +"€")
+    alert((price - price * 0.4).toFixed(2) +"€")
 }
 
 else{
-    alert(price +"€")
+    alert((price).toFixed(2) +"€")
 }
 
