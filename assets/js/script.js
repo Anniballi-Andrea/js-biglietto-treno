@@ -14,9 +14,18 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 */
 
 //definire la variabile dei chilometri da percorrere
+let distance = prompt("inserisci i km da percorrere")
 
 //definire la variabile dell'età del passeggero
+let age = prompt("inserisci la tua età")
 
 //impostare la variabile del costo del biglietto
+const price = (distance * 0.21) +"€"
 
 //fare un controllo di eventuali sconti
+
+//applicare lo sconto ai minorenni
+
+//applicare lo sconto alle persone over 65
+
+console.log(price);
