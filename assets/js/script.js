@@ -20,11 +20,19 @@ let distance = prompt("inserisci i km da percorrere")
 let age = prompt("inserisci la tua età")
 
 //impostare la variabile del costo del biglietto
-const price = (distance * 0.21) +"€"
+const price = (distance * 0.21) 
 
 //fare un controllo di eventuali sconti
+if (age < 18 ){
+     //applicare lo sconto ai minorenni
+    alert(price - price * 0.2 +"€")
+}
 
-//applicare lo sconto ai minorenni
+else{
+    alert(price +"€")
+}
+
+
 
 //applicare lo sconto alle persone over 65
 
